@@ -1,0 +1,76 @@
+<resources>
+    <string name="can_do_transitions">false</string>
+    <string name="app_name">Vehicle Info Camera</string>
+    <!-- orig to avoid conflicts within packages-->
+    <string name="app_name_orig">RTO Vehicle Info Camera</string>
+    <string name="browser">RTO Website</string>
+    <string name="loading_webview">Loading page...</string>
+    <string name="confirm_details">Confirm Details</string>
+    <string name="explanation_detail">because no text detection is 100% accurate</string>
+    <string name="vehicle_no">Vehicle Number: </string>
+    <string name="ok">OK</string>
+    <string name="search">Search</string>
+    <string name="support_text">Show some Love &amp; Support!</string>
+    <string name="support"> RATE APP </string>
+    <string name="share_btn">SHARE APP </string>
+    <string name="dont_support">CLOSE</string>
+    <string name="developer_line1">Made with♥</string>
+    <string name="developer_line2">by <a href="https://github.com/Udayraj123/">Udayraj</a>, <a href="https://github.com/sharmatanesh/">Tanesh</a> &amp; <a href="https://www.instagram.com/shashank529317/">Shashank</a>.</string>
+    <!--<string name="developer_line3">If you liked it, Give a star on github!</string>-->
+    <!--<string name="developer_line4"><a href="https://github.com/Udayraj123/VehicleInfoOCR">View on Github</a></string>-->
+    <string name="developer_line3">If you liked it, or have some suggestions</string>
+    <string name="developer_line4">
+        <a href="https://docs.google.com/forms/d/1RCRRPdtpmr_lz_Xi81INVYpIJxBlkfqdAz6C0tY1RXE/"> Give Feedback </a>
+    </string>
+    <string name="privacy_policy_line">
+        <a href="https://udayraj123.github.io/VehicleInfoOCR/docs/privacy_policy">\nView privacy policy</a>
+    </string>
+
+    <string name="close">Close</string>
+    <string name="plate_hint">    AB01CD1234</string>
+    <string name="captcha_hint">    Captcha code</string>
+    <string name="captcha_img">Captcha here</string>
+
+
+    <!-- Tabs -->
+    <string name="vehicle_tab">search vehicle</string>
+    <string name="recent_search_header">RECENT SEARCHES</string>
+
+    <!-- Vehicle card -->
+    <string name="card_header_fuel">Fuel Type</string>
+    <string name="card_header_cc">Displacement</string>
+    <string name="card_header_engine">Engine No.</string>
+    <string name="card_header_chassis">Chassis No.</string>
+    <string name="card_header_owner">Owner</string>
+    <string name="card_header_location">Location</string>
+
+    <string name="office_tab">search office</string>
+    <string name="default_state">STATE</string>
+    <string name="default_code">RTO CODE</string>
+    <string name="default_district">District</string>
+    <string name="first_state">ANDAMAN AND NICOBAR ISLANDS</string>
+    <string name="first_state_code">AN</string>
+    <string name="website">Visit the official website</string>
+    <string name="clipboard_acknowledge">Copied to clipboard</string>
+
+    <!-- Action -->
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Dialog -->
+    <string name="okay">OKAY</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="yes">YES</string>
+    <string name="cancel">CANCEL</string>
+    <string name="choose">CHOOSE</string>
+    <string name="agree">AGREE</string>
+    <string name="disagree">DISAGREE</string>
+    <string name="more">LEARN MORE</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="retry">RETRY</string>
+    <string name="check">CHECK</string>
+
+    <!-- Captcha -->
+    <string name="captcha_header">Verify</string>
+    <string name="captcha_message">Enter captcha code</string>
+</resources>

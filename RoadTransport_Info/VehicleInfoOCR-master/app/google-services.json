@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "660321499545",
+    "firebase_url": "https://vehicle-info-camera-india.firebaseio.com",
+    "project_id": "vehicle-info-camera-india",
+    "storage_bucket": "vehicle-info-camera-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660321499545:android:7ff50156cef4f347",
+        "android_client_info": {
+          "package_name": "com.udayraj.vehicleinfolive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660321499545-homs2ep7l35gb6p7eeh6ionleradbtsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8vpWjyNP9xn9ehO_NBExW3XwtImZWvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660321499545-homs2ep7l35gb6p7eeh6ionleradbtsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/super_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- content -->
+
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+
+    <com.udayraj.vehicleinfolive.camera.CameraSourcePreview
+        android:id="@+id/camera_source_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.udayraj.vehicleinfolive.graphics.GraphicOverlay
+            android:id="@+id/graphics_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <!--<com.vehicleinfo_usdicleinfo_usd.vehicleinfo.graphics.DrawingArea-->
+        <!--android:id="@+id/drawing_area"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+
+    </com.udayraj.vehicleinfolive.camera.CameraSourcePreview>
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5.2"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/detected_plates"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/plate5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="invisible"
+                    />
+                <Button
+                    android:id="@+id/plate4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="invisible"
+                    />
+                <Button
+                    android:id="@+id/plate3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="invisible"
+                    />
+                <Button
+                    android:id="@+id/plate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="invisible"
+                    />
+                <Button
+                    android:id="@+id/plate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/flash_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/flash_off"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.34"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+                <ImageButton
+                    android:id="@+id/cam_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/wheel"
+                    />
+                <!--app:like_icon="@drawable/bubble_pop3"-->
+                <!--app:unlike_icon="@drawable/bubble3"-->
+                <!--app:circle_startColor="@android:color/holo_green_light"-->
+                <!--app:circle_endColor="@android:color/holo_green_dark"-->
+                <!--app:dot_color_1="@android:color/white"-->
+                <!--app:dot_color_2="@android:color/black"-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.85"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+                <ImageButton
+                    android:id="@+id/drawer_btn"
+                    android:scaleType="fitCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/search_off"
+                    android:onClick="onDrawerButtonClicked"
+                    />
+                <!--android:background="@drawable/search"-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <!--<LinearLayout-->
+        <!--android:layout_weight="3.54"-->
+        <!--android:id="@+id/dummy"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent">-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_weight="2.5"
+            android:layout_height="0dp"
+            android:id="@+id/drawer"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:background="@drawable/drawer"
+            android:layout_width="match_parent">
+            <!-- bottom sheet -->
+            <include layout="@layout/main_content"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_weight="0.08"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent">-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <include layout="@layout/support_dialogue"
+        android:id="@+id/support_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <include layout="@layout/easter"
+        android:id="@+id/easter"
+        android:visibility="invisible"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <!--<nl.dionsegijn.konfetti.KonfettiView-->
+        <!--android:id="@+id/viewKonfetti"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:focusable="false"-->
+        <!--android:clickable="false"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
+</android.support.constraint.ConstraintLayout>
